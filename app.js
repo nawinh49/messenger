@@ -50,7 +50,7 @@ _axios2.default.interceptors.response.use(function (res) {
     return Promise.reject(err);
 });
 
-app.set('port', process.env.PORT || 5000);
+app.set('port', process.env.PORT || 3000);
 app.use(body_parser.json());
 app.use(express.static('public'));
 
